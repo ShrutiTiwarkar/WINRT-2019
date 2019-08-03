@@ -1,9 +1,9 @@
-/************************************************
-*ASSIGNMENT - 7									*
+/*******************************************************
+*ASSIGNMENT - 7						*
 *		This assignment is about the changing	*
 *		color of the screen according to button	*
-*		pressed by the user.					*
-*************************************************/
+*		pressed by the user.			*
+*********************************************************/
 
 #include<Windows.h>
 
@@ -32,13 +32,12 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInsatnce, LPSTR lpszCmdLi
 	RegisterClassEx(&wndclass);											// Register the Window to the OS
 
 
-	/****************************************************
-	*													*
+	/********************************************************													*
 	*	Create the Registered Window according to the	*
 	*	parameters. It returns a Unique Id and store in *
 	*	"hwnd" which helps to access window elements	*
-	*													*
-	*****************************************************/
+	*							*
+	*********************************************************/
 	hwnd = CreateWindow(szAppName,
 		TEXT("Single Color Window"),									// Title of application			
 		WS_OVERLAPPEDWINDOW,
@@ -54,14 +53,6 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInsatnce, LPSTR lpszCmdLi
 	ShowWindow(hwnd, iCmdShow);
 	UpdateWindow(hwnd);
 
-	/********************************************************
-	*	Message Loop										*
-	*														*
-	*	Parameters : msg  => Addeess of structure MSG		*
-	*				 NULL => Current and its Child Window	*
-	*				 0,0  => Range							*
-	*														*
-	*********************************************************/
 	while (GetMessage(&msg, NULL, 0, 0)) {
 		TranslateMessage(&msg);
 		DispatchMessage(&msg);
