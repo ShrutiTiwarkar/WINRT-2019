@@ -1,0 +1,3 @@
+﻿  SingleColorScreen.cpp
+d:\source\repos\01_ide\singlecolorscreen\singlecolorscreen.cpp(73): warning C4101: 'str': unreferenced local variable
+  SingleColorScreen.vcxproj -> D:\source\repos\01_IDE\SingleColorScreen\Debug\SingleColorScreen.exe
