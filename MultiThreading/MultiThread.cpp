@@ -81,6 +81,11 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT iMsg, WPARAM wParam, LPARAM lParam) {
 		MessageBox(hwnd, str, TEXT("MESSAGE..."), MB_OK | MB_ICONINFORMATION);
 		break;
 
+	case WM_LBUTTONDOWN:
+		wsprintf(str, TEXT("Left Key is Pressed...!"));
+		MessageBox(hwnd, str, TEXT("MESSAGE..."), MB_OK | MB_ICONINFORMATION);
+		break;
+
 	case WM_DESTROY:																// close Application
 		PostQuitMessage(0);
 		break;
