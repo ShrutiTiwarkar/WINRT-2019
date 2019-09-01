@@ -1,0 +1,4 @@
+﻿  ClickPressEllipse.cpp
+d:\source\repos\01_ide\keypresssquare\clickpressellipse.cpp(5): warning C4005: 'WM_SIZE': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\um\winuser.h(1957): note: see previous definition of 'WM_SIZE'
+  KeyPressSquare.vcxproj -> D:\source\repos\01_IDE\KeyPressSquare\Debug\KeyPressEllipse.exe
