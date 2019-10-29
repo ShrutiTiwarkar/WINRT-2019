@@ -2,8 +2,6 @@
 #include<windowsx.h>
 #include<gdiplus.h>
 
-#define WM_SIZE SIZE_MAXIMIZED
-
 LRESULT CALLBACK WndProc(HWND, UINT, WPARAM, LPARAM);
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPreInstance, LPSTR lpszCmdLine, int iCmdShow) {
