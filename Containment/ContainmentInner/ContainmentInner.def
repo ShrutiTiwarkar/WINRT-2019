@@ -1,0 +1,4 @@
+LIBRARY ContainmentInner
+EXPORTS
+	DllGetClassObject	PRIVATE
+	DllCanUnloadNow		PRIVATE

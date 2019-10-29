@@ -1,0 +1,40 @@
+ CLSID_IMultiplicationDivision
+
+// {9DA6BED5-AA68-48AD-80FF-14FEAA1F7BE8}
+IMPLEMENT_OLECREATE(<<class>>, <<external_name>>, 
+0x9da6bed5, 0xaa68, 0x48ad, 0x80, 0xff, 0x14, 0xfe, 0xaa, 0x1f, 0x7b, 0xe8);
+
+
+**********************************************************************************
+IID_IMultiplication
+
+// {61DE4561-0ECA-452F-9316-667B8286DDF3}
+IMPLEMENT_OLECREATE(<<class>>, <<external_name>>, 
+0x61de4561, 0xeca, 0x452f, 0x93, 0x16, 0x66, 0x7b, 0x82, 0x86, 0xdd, 0xf3);
+
+
+**********************************************************************************
+IID_IDivision
+
+// {CB486389-D3B8-418E-93ED-FEE565412885}
+IMPLEMENT_OLECREATE(<<class>>, <<external_name>>, 
+0xcb486389, 0xd3b8, 0x418e, 0x93, 0xed, 0xfe, 0xe5, 0x65, 0x41, 0x28, 0x85);
+
+************************************************************************************
+CLSID_CSumSubtract
+// {23A94910-63FF-41C8-BEA9-783213B27EA6}
+IMPLEMENT_OLECREATE(<<class>>, <<external_name>>, 
+0x23a94910, 0x63ff, 0x41c8, 0xbe, 0xa9, 0x78, 0x32, 0x13, 0xb2, 0x7e, 0xa6);
+
+*************************************************************************************
+IID_ISum
+// {7D63DF37-0C7F-417F-A25B-B61D5903F68A}
+IMPLEMENT_OLECREATE(<<class>>, <<external_name>>, 
+0x7d63df37, 0xc7f, 0x417f, 0xa2, 0x5b, 0xb6, 0x1d, 0x59, 0x3, 0xf6, 0x8a);
+
+************************************************************************************
+IID_ISubtract
+// {2E79457C-E1FA-4D08-94A9-AA76CD496F58}
+IMPLEMENT_OLECREATE(<<class>>, <<external_name>>, 
+0x2e79457c, 0xe1fa, 0x4d08, 0x94, 0xa9, 0xaa, 0x76, 0xcd, 0x49, 0x6f, 0x58);
+**************************************************************************************
