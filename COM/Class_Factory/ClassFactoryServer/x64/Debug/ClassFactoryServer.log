@@ -1,0 +1,4 @@
+﻿  ClassFactoryDllServer.cpp
+     Creating library D:\source\repos\COM\Class_Factory\ClassFactoryServer\x64\Debug\ClassFactoryServer.lib and object D:\source\repos\COM\Class_Factory\ClassFactoryServer\x64\Debug\ClassFactoryServer.exp
+ClassFactoryServer.exp : warning LNK4070: /OUT:ClassFactoryDllServer.dll directive in .EXP differs from output filename 'D:\source\repos\COM\Class_Factory\ClassFactoryServer\x64\Debug\ClassFactoryServer.dll'; ignoring directive
+  ClassFactoryServer.vcxproj -> D:\source\repos\COM\Class_Factory\ClassFactoryServer\x64\Debug\ClassFactoryServer.dll

@@ -1,0 +1,3 @@
+﻿  ClassFactoryClient.cpp
+d:\source\repos\com\class_factory\classfactoryclient\classfactoryclient.cpp(54): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+  ClassFactoryClient.vcxproj -> D:\source\repos\COM\Class_Factory\ClassFactoryClient\x64\Debug\ClassFactoryClient.exe
