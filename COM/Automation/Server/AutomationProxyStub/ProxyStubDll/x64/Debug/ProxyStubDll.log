@@ -1,0 +1,6 @@
+﻿  AutomationProxyStubDllData.c
+  AutomationProxyStubGuids.c
+  Generating Code...
+     Creating library D:\source\repos\COM\Automation\Server\AutomationProxyStub\ProxyStubDll\x64\Debug\ProxyStubDll.lib and object D:\source\repos\COM\Automation\Server\AutomationProxyStub\ProxyStubDll\x64\Debug\ProxyStubDll.exp
+ProxyStubDll.exp : warning LNK4070: /OUT:AutomationProxyStub.dll directive in .EXP differs from output filename 'D:\source\repos\COM\Automation\Server\AutomationProxyStub\ProxyStubDll\x64\Debug\ProxyStubDll.dll'; ignoring directive
+  ProxyStubDll.vcxproj -> D:\source\repos\COM\Automation\Server\AutomationProxyStub\ProxyStubDll\x64\Debug\ProxyStubDll.dll
